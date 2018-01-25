@@ -2,3 +2,56 @@
 # float=> decimal _float
 # boolean=> True/False _bool
 #string=> 'word' _str
+import sys
+_message = sys.argv[0]
+
+message = 'Hello World'
+print(message)
+
+'''
+ practise: print each letter in a given string
+'''
+
+message = 'Programming 101'
+
+#brute force
+print('p')
+print('r')
+print('o')
+print('g')
+print('r')
+print('a')
+print('m')
+print('m')
+print('i')
+print('n')
+print('g')
+print(' ')
+print('1')
+print('0')
+print('1')
+
+#for_ <variable_name> in <collection>:
+#    <action>
+
+for letter in message:
+    print(letter)
+
+'''
+ practise: print true or false if a letter exists in agiven str
+'''
+
+
+def find_letter():
+    global search_value, message
+    search_value = 'e'
+    message = 'hello world'
+
+
+find_letter(search_value):
+    if search_value
+
+if search_value in  message:
+    print(True)
+else:
+    print(False)
